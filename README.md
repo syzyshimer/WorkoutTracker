@@ -13,3 +13,7 @@ WorkoutTracker  — это интерактивное приложение, ра
 Установка проекта:
 1. Клонирование репозитория: git clone https://github.com/syzyshimer/WorkoutTracker.git
 2. Переход в директорию WorkoutTracker: cd WorkoutTracker
+3. Создание виртуального окружения: py -m venv venv
+4. Активация виртуального окружения: venv\scripts\activate.bat
+5. Установка зависимостей: pip install -r requirements.txt
+6. Запуск проекта: py main.py
