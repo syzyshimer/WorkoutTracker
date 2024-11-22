@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>834</width>
-    <height>613</height>
+    <width>978</width>
+    <height>604</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -140,10 +140,10 @@
    <widget class="QWidget" name="gridLayoutWidget_4">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>10</y>
-      <width>471</width>
-      <height>551</height>
+      <x>370</x>
+      <y>0</y>
+      <width>601</width>
+      <height>561</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
@@ -173,13 +173,10 @@
        </property>
       </widget>
      </item>
-     <item row="5" column="0" colspan="2">
-      <widget class="QTableWidget" name="timeTable"/>
-     </item>
-     <item row="1" column="0">
-      <widget class="QPushButton" name="arms">
+     <item row="1" column="1">
+      <widget class="QPushButton" name="back">
        <property name="text">
-        <string>Руки</string>
+        <string>Спина</string>
        </property>
       </widget>
      </item>
@@ -196,12 +193,15 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="QPushButton" name="back">
+     <item row="1" column="0">
+      <widget class="QPushButton" name="arms">
        <property name="text">
-        <string>Спина</string>
+        <string>Руки</string>
        </property>
       </widget>
+     </item>
+     <item row="5" column="0" colspan="2">
+      <widget class="QTableWidget" name="timeTable"/>
      </item>
     </layout>
    </widget>
@@ -259,7 +259,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>834</width>
+     <width>978</width>
      <height>21</height>
     </rect>
    </property>
